@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sapper</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body id="body">
+    <div class="container">
+      <h1>Сапер</h1>
+      <button class="ctrl" id="beginner">Новичок</button>
+      <button class="ctrl" id="amateur">Любитель</button>
+      <button class="ctrl" id="professional">Проффесионал</button>
+      <button class="ctrl" id="special">Особый</button>
+      <input type="number" class="form" placeholder="Размер" id="side" />
+      <input type="number" class="form" placeholder="Число мин" id="mines" />
+      <button class="ctrl" id="start">Старт!</button>
+
+      <div id="row1">
+        <div id="numOfMines" class="divinf inf"></div>
+        <button class="divinf ctrl" id="restart0">Рестарт!</button>
+        <div id="timer" class="divinf inf"></div>
+      </div>
+
+      <div class="flex-container" id="table"></div>
+      <div class="expl" id="message">
+        <div id="mes">СМЭРТЪ</div>
+        <button id="restart">Рестарт!</button>
+      </div>
+    </div>
+    <button id="checkout">Отладка!</button>
+  </body>
+</html>
